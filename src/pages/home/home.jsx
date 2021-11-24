@@ -67,6 +67,9 @@ const Home = () => {
       <div className="w-5/12">
         <PolarArea data={data} />
       </div>
+      <div className="w-5/12">
+        <Pie data={data} />
+      </div>
     </PageLayout>
   );
 };
